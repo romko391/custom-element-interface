@@ -2,7 +2,7 @@
   "name": "custom-element-interface",
   "version": "1.0.0",
   "description": "A WebComponent interface compliant with v1 spec.",
-  "main": "index.js",
+  "main": "index.d.ts",
   "keywords": [
     "webcomponents",
     "webcomponent",
