@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "A WebComponent interface compliant with v1 spec.",
   "main": "index.d.ts",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/romko391/custom-element-interface"
+  },
+  "homepage": "https://github.com/romko391/custom-element-interface",
   "keywords": [
     "webcomponents",
     "webcomponent",
