@@ -1,0 +1,14 @@
+{
+  "name": "webcomponent-interface",
+  "version": "1.0.0",
+  "description": "A WebComponent interface compliant with v1 spec.",
+  "main": "index.js",
+  "keywords": [
+    "webcomponents",
+    "webcomponent",
+    "lifecycle-hooks",
+    "custom-elements"
+  ],
+  "author": "romko391",
+  "license": "ISC"
+}
