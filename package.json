@@ -1,6 +1,6 @@
 {
   "name": "custom-element-interface",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A WebComponent interface compliant with v1 spec.",
   "main": "index.d.ts",
   "repository": {
