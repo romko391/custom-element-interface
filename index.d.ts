@@ -10,7 +10,7 @@ export interface CustomElementAttributeChanged {
    * Invoked each time one of the custom element's attributes is added, removed, or changed.
    * Which attributes to notice change for is specified in a static get `observedAttributes` method.
    */
-  attributeChangedCallback(name: string, oldValue: any, newValue: any): void;
+  attributeChangedCallback<T1, T2>(name: string, oldValue: T1, newValue: T2): void;
 }
 
 export interface CustomElementConnected {
@@ -35,8 +35,9 @@ interface CustomElementStatic {
 /**
  * Implement this interface to define all lifecycle hooks for custom `HTMLElement`
  */
-export interface CustomElement
-  extends CustomElementAdopted,
+export interface CustomElement extends 
+    HTMLElement,
+    CustomElementAdopted,
     CustomElementAttributeChanged,
     CustomElementConnected,
     CustomElementDisconnected {}
